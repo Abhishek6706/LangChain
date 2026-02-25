@@ -14,7 +14,8 @@ template = PromptTemplate(
     """Explain the {paper_name} with {style_name} in {length}.
     If paper is not found, return the answer as "NOT FOUND".
     Don't halicunate.
-""", input_variables=["paper_name", "style_name", "length"]
+""", input_variables=["paper_name", "style_name", "length"],
+validate_template=True
 )
 
 paper_name = st.selectbox(label="Paper name", options=["Development and Evaluation of ML Models for Cardiotocography Interpretation", "Attention Is All You Need", "BERT"])
