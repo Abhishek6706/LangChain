@@ -3,3 +3,4 @@ dotenv
 langchain_openai
 scikit-learn
 streamlit
+grandalf
