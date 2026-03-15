@@ -4,3 +4,11 @@ langchain_openai
 scikit-learn
 streamlit
 grandalf
+langchain_community
+pypdf
+unstructured
+pdfminer.six
+pi_heif
+unstructured_inference
+pdf2image
+
