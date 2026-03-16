@@ -13,4 +13,5 @@ unstructured_inference
 pdf2image
 langchain-text-splitters
 langchain_experimental
+chromadb
 
