@@ -15,4 +15,5 @@ langchain-text-splitters
 langchain_experimental
 chromadb
 faiss-cpu
+wikipedia
 
